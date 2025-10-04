@@ -110,3 +110,58 @@ body {
     text-align: center;
   }
 }
+.page-content {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.page-content .banner {
+  background: url('assets/img/banner2.jpg') center/cover no-repeat;
+  width: 100%;
+  height: 250px;
+  opacity: 0.3;
+}
+
+.content {
+  padding: 2rem;
+  max-width: 900px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.links a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #00ffcc;
+  padding: 0.8rem 2rem;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #00ffcc;
+  color: #000;
+}
